@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+
+<body>
+
+	<h2>Student Registration Form</h2>
+
+	<form action="register" method="post">
+
+		<!-- 1. First Name -->
+		<label>First Name:</label> <input type="text" name="firstName"
+			placeholder="Enter First Name"> <br>
+		<br>
+
+		<!-- 2. Last Name -->
+		<label>Last Name:</label> <input type="text" name="lastName"
+			placeholder="Enter Last Name"> <br>
+		<br>
+
+		<!-- 3. Email -->
+		<label>Email:</label> <input type="email" name="email"
+			placeholder="Enter Email"> <br>
+		<br>
+
+		<!-- 4. Password -->
+		<label>Password:</label> <input type="password" name="password"
+			placeholder="Enter Password"> <br>
+		<br>
+
+		<!-- 5. Mobile Number -->
+		<label>Mobile Number:</label> <input type="tel" name="mobile"
+			placeholder="Enter Mobile Number"> <br>
+		<br>
+
+		<!-- 6. DOB -->
+		<label>Date of Birth:</label> <input type="date" name="dob"> <br>
+		<br>
+
+		<!-- 7. Graduation Passing Year -->
+		<label>Graduation Passing Year:</label> <select name="passingYear">
+			<option value="">Select Year</option>
+			<option>2024</option>
+			<option>2025</option>
+			<option>2026</option>
+			<option>2027</option>
+			<option>2028</option>
+		</select> <br>
+		<br>
+
+		<!-- 8. Specialization -->
+		<label>Specialization:</label> <select name="specialization">
+			<option value="">Select Specialization</option>
+			<option>Information Technology</option>
+			<option>Computer Science</option>
+			<option>Electronics</option>
+			<option>Mechanical</option>
+			<option>Civil</option>
+			<option>Electrical</option>
+		</select> <br>
+		<br>
+
+		<!-- 9. Semester -->
+		<label>Semester:</label> <select name="semester">
+			<option value="">Select Semester</option>
+			<option>1st Semester</option>
+			<option>2nd Semester</option>
+			<option>3rd Semester</option>
+			<option>4th Semester</option>
+			<option>5th Semester</option>
+			<option>6th Semester</option>
+			<option>7th Semester</option>
+			<option>8th Semester</option>
+		</select> <br>
+		<br>
+
+		<!-- 10. 10th Percentage -->
+		<label>10th Percentage:</label> <input type="number"
+			name="tenthPercentage" placeholder="Enter 10th %" min="0" max="100"
+			step="0.01"> <br>
+		<br>
+
+		<!-- 11. 12th Percentage -->
+		<label>12th Percentage:</label> <input type="number"
+			name="twelfthPercentage" placeholder="Enter 12th %" min="0" max="100"
+			step="0.01"> <br>
+		<br>
+
+		<!-- 12. Graduation Percentage -->
+		<label>Graduation Percentage:</label> <input type="number"
+			name="graduationPercentage" placeholder="Enter Graduation %" min="0"
+			max="100" step="0.01"> <br>
+		<br>
+
+		<!-- 13. Fresher / Experience -->
+		<label>Fresher / Experience:</label> <input type="radio"
+			name="experience" value="Fresher"> <label>Fresher</label> <input
+			type="radio" name="experience" value="Experience"> <label>Experience</label>
+
+		<br>
+		<br>
+
+		<!-- 14. Gender -->
+		<label>Gender:</label> <input type="radio" name="gender" value="Male">
+		<label>Male</label> <input type="radio" name="gender" value="Female">
+		<label>Female</label> <input type="radio" name="gender" value="Other">
+		<label>Other</label> <br>
+		<br>
+
+		<!-- Buttons -->
+		<input type="submit" value="Register"> <input type="reset"
+			value="Reset">
+
+	</form>
+
+</body>
+</html>
+
